@@ -49,7 +49,7 @@ jQuery(document).ready(function($) {
 	}
 
 	// chosen
-	$("select").each(function(index) { 
+	$(".custom-metadata-field select").each(function(index) { 
 		$(this).chosen();
 	});
 
